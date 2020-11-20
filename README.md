@@ -12,7 +12,8 @@
 **Storage**
 - pour la Todo List
   J'ai utilisé le localStorage pour garder les données de la TodoList
-  Cela implémenter les fonctionnalités plus rapidement et avoir la possiblité de garder les données sans devoir créer une base de données ou un API pour servir les données
+  Cela a permis d'implémenter les fonctionnalités plus rapidement et avoir la possiblité de garder les données localement apres un refresh 
+  sans devoir créer une base de données ou un API pour servir les données
 
 - pour les commentaires
   les données sont récupérées directement de l'api elles sont stockées dans un state variable
