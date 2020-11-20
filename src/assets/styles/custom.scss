@@ -1,0 +1,160 @@
+html {
+  body {
+    background-color: #dadada;
+  }
+}
+
+.navbar {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+}
+
+.btn {
+  margin: 15px;
+}
+
+.btn-create {
+  margin-top: 30px;
+  text-align: right;
+  padding: 0 20px;
+}
+
+.btn-wrapper {
+  margin-left: auto;
+  text-align: right;
+}
+
+.btn-w-spinner {
+  width: 100%;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.todo-wrapper, 
+.comments-wrapper {
+  background-color: white;
+  margin: 50px 25px;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.comments-wrapper {
+  background-color: transparent;
+}
+
+.todo-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 1px dashed #dadada;
+
+  li {
+    p {
+      text-align: left;
+
+      &.date-info {
+        color: grey;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.MuiFormControlLabel-label {
+  li {
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.striped {
+  p {
+    text-decoration: line-through;
+    color: #b4b3b3;
+  }
+
+  .MuiCheckbox-colorPrimary.Mui-checked {
+    color: #b4b3b3;
+  }
+}
+
+.comment-form {
+  max-width: 500px;
+  margin: 0 auto;
+
+  .form-group {
+    text-align: left;
+  }
+}
+
+.post-wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+
+  img {
+    float: left;
+    margin-right: 20px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.post-content {
+  p {
+    text-align: left;
+  }
+
+  .message {
+    font-size: 25px;
+  }
+
+  .author {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .date {
+    color: #dadada;
+    margin-bottom: 20px;
+  }
+}
+
+.dropdown-menu {
+  height: 200px;
+  overflow-y: auto;
+}
+
+button.dropdown-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  background-color: white;
+  color: #969696;
+  border-color: white;
+}
+
+.empty {
+  background-color: white;
+  padding: 25px;
+  margin: 30px 0;
+  border-radius: 7px;
+}
